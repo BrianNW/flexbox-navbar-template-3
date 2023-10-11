@@ -17,14 +17,19 @@ li, a, button {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 }
 
 .logo {
     cursor: pointer;
-    margin-right: auto;
+    order: 3;
+    margin-left: auto;
+}
+
+nav {
+    order: 1;
 }
 
 .nav__links {
